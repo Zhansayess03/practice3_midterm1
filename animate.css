@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+.nav_1{
+  font-family:Comfortaa ;
+  font-size: 18px;
+  font-weight: 700px;
+  line-height: 32.4px;
+}
+p{
+  font-family:Nunito ;
+  font-size: 24px;
+  font-weight: 400px;
+  line-height: 36px;
+}
+header.masthead {
+  padding-top: 7.5rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  color: black;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  color: #fdc435;
+  font-family: Playfair Display;
+
+}
+header.masthead .masthead-heading {
+  
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: Nunito, 
+
+}
+h1{
+   font-family: Playfair Display;
+  font-size:68px;
+  font-weight: 700px;
+  line-height: 76.8px;
+}
+.section-heading {
+
+  padding-top: 6rem;
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+p{
+   margin-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+.img-1{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 0;
+  
+}
+.form{
+ width: 700px;
+}
+.buttn_1{
+  position:relative;
+  text-align: center;
+  left:250px;
+  bottom:25px;
+
+}
+
+.lnk1{
+  width:37px;
+  height:37px;
+  position:relative;
+  left:215px;
+  top:35px;
+}
+.lnk2{
+  width:37px;
+  height:37px;
+  position:relative;
+  left:245px;
+  top:35px;
+}
+.lnk3{
+  width:37px;
+  height:37px;
+  position:relative;
+  left:275px;
+  top:35px;
+}
+
+
+
+span{
+  position: relative;
+  display: inline-flex;
+  width: 100px;
+  height: 25px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+span a{
+  font-size: 12px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .5s;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+span a:before,
+span a:after{
+  position: absolute;
+  content: "Linkedln";
+  height: 40px;
+  width: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+span a:before{
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+span a:after{
+  color: #000;
+
+  transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+
+.btn-16 {
+   background: #000;
+  color: black;
+  z-index: 1;
+   margin: 20px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.custom-btn {
+  height: 40px;
+  width: 83px;
+  padding: 10px 25px;
+  border: 2px solid #fdc435;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  
+  
+}
+
+
+.btn-16:after {
+  position: absolute;
+  content: "Project";
+  color: black;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  background: #fdc435;
+  transition: all 0.3s ease;
+}
+
+.btn-16:hover {
+  color: black;
+}
+.btn-16:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+  
+}
+.btn-16:active {
+  top: 2px;
+}
